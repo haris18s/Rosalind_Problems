@@ -22,7 +22,7 @@ def permutations_integ(array, indx_l, indx_r):
 def write_file(lis_of_lis):
     """It writes a file where each new line is each element from a  list of lists.
     Input: list of lists
-    Prints: each element (individual list) from list of lists,  into seperate line, seperated with spaces
+    Writes into file: each element (individual list) from list of lists,  into seperate line, seperated with spaces
     """
     with open("file.txt", "w") as file:
         #the number of permutation in the first line
