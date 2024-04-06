@@ -34,7 +34,7 @@ def write_file(lis_of_lis):
 
 if __name__ == '__main__':
 
-    #open the file of rosaling to read the positive integer
+    #open the file of rosalind to read the positive integer
     with open("rosalind_perm.txt", "r") as file:
         num = int(file.readline())
 
