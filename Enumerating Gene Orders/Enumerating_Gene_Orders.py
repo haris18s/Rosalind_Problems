@@ -34,9 +34,11 @@ def write_file(lis_of_lis):
 
 if __name__ == '__main__':
 
-    #give a postive integer
-    num = 7
-    #make a list of integer for that ingeger
+    #open the file of rosaling to read the positive integer
+    with open("rosalind_perm.txt", "r") as file:
+        num = int(file.readline())
+
+    #make a list of integer from that given ingeger
     array = [i for i in range(1, num+1)]
     #calculate the num of perumataiton
     lis_num_permutations = permutations_integ(array,0,len(array))
