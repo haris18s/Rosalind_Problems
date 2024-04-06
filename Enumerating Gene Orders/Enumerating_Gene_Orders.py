@@ -3,7 +3,7 @@
 
 
 def permutations_integ(array, indx_l, indx_r):
-    """Function to calculate the  num of permutation for an array of integers. It uses the backatracking method.
+    """Function to calculate the  num of permutation for an array of integers. It uses the backtracking algorithm.
     Input: array of integers
     Output (list of lists): the permutations for the ingegers of the array
     """
