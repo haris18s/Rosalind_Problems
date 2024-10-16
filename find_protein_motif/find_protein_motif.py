@@ -19,7 +19,7 @@ def parse_proteins(input_file):
 
 
 def download_data(dic_proteins):
-    """    Downloads protein sequences from UniProtKB based on protein identifiers.
+    """Downloads protein sequences from UniProtKB based on protein identifiers.
     Input: list_proteins (list): A list mapping protein identifiers to their first six characters.
 
     "Returns: A dictionary mapping protein identifiers to their corresponding sequences.
@@ -34,7 +34,7 @@ def download_data(dic_proteins):
     return dic_proteins_fasta
 
 def parse_individual_fasta(file):
-    """    Parses a individual FASTA file to extract the sequence.
+    """Parses a individual FASTA file to extract the sequence.
         Input: file (str): The path to the FASTA file.
 
 
